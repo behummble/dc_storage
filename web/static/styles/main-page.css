@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
+
+.main-text{
+    font-family: Pacifico, serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5em;
+    color: rgb(211, 211, 219);
+    filter: drop-shadow(2px 4px 1px #c9bc88);
+}
+
+header{
+    margin-top: 1em;
+    font-family: Teko, serif;
+}
+
+header>button{
+    font-size: 18px;
+    margin-right: 4em;
+}
+
+.login-form {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 14px;
+    background-color: rgba(243, 223, 196, 0.874);
+    border: 2px solid rgba(162, 195, 248, 0.89);
+    width: 50%;
+    border-radius: 40px;
+}
+
+.create-acc-form{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 14px;
+    background-color: rgba(243, 223, 196, 0.874);
+    border: 2px solid rgba(162, 195, 248, 0.89);
+    width: 50%;
+    border-radius: 40px;
+}
+.authorization-group-forms label, input{
+    display:flex;
+    flex-direction:column;
+    color: rgb(0, 5, 9);
+}
+
+.btn-close{
+    float: right;
+    color: black;
+}
